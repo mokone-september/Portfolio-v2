@@ -45,9 +45,9 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/AI-Chatbot-Assistant" target="_blank" rel="noreferrer">
+                <a href="https://github.com/mokone-september/e-commerce-store" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /> </a>
-                <a href="https://ai-chatbot-t8fn.onrender.com" target="_blank" rel="noreferrer">
+                <a href="https://e-commerce-store-hazel-xi.vercel.app/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" /></a>
               </div>
             </header>
@@ -94,6 +94,40 @@ export function Project() {
                 <li>TailwindCSS</li>
                 <li>Pinia</li>
                 <li>Quiz API</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <div className="project-links">
+                <a href="https://github.com/mokone-september/snake-game" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="GitHub" />
+                </a>
+                 <a href="https://snake-game-pi-rose.vercel.app/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a> 
+              </div>
+            </header>
+            <div className="body">
+              <h3>Snake Game</h3> 
+              <p>
+              A classic snake game built with React and Redux, featuring a simple and intuitive interface, and smooth gameplay.A classic snake game built with React and Redux, featuring a simple and intuitive interface, and smooth gameplay.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>React</li>
+                <li>Redux</li>
+                <li>Typescript</li>
+                <li>TailwindCSS</li>
+                <li>Typescript</li>
               </ul>
             </footer>
           </div>
