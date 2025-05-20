@@ -24,17 +24,22 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-          Hi there! I'm Thabiso Mokone, an enthusiastic Software Engineer skilled in web development, machine learning, and scalable software solutionsHi there! I'm Thabiso Mokone, an enthusiastic Software Engineer skilled in web development, machine learning, and scalable software solutions
+          I'm Thabiso Mokone — a resilient and forward-thinking Software Engineer with hands-on experience in building responsive web apps, training machine learning models, and designing scalable backend systems.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-            I build responsive web applications, fine-tune ML models, and implement robust backend services.
+            I thrive in fast-moving environments and enjoy turning complex problems into elegant, sustainable solutions. My toolkit includes React, Vue, TypeScript, Go, Node.js, and Python — enabling me to move seamlessly across the stack and adapt to a wide range of projects.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            I also work with CMS platforms like WordPress and Shopify to streamline content management.
+            When I’m not coding, you’ll likely find me walking outdoors and reconnecting with nature — it’s where I recharge and often find fresh ideas.
+          </p>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
+          <p>
+            If you're looking for someone who can bridge the gap between front-end finesse, backend reliability, and data-driven intelligence, let’s connect — I’m ready to contribute to your next big idea
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
@@ -48,10 +53,10 @@ export function About() {
         <ScrollAnimation animateIn="fadeInLeft" delay={550}>
           <div className="experience">
              <h3>Experience:</h3><h4> Graduates Programme </h4>
-            <p> SovTech | Febuary- December 2023 </p>
+            <p> SovTech | Feb 2022 - Dec 2022 </p>
             <p>Ranburg, Johannesburg</p>
             <h3>Experience:</h3><h4> Junior Software Developer </h4>
-            <p> SovTech | October 2022 - Deccember 2023</p>
+            <p> SovTech | Jan 2023 - Feb 2024 </p>
             <p>Ranburg, Johannesburg</p>
           </div>
           
@@ -91,7 +96,7 @@ export function About() {
               <img src={vueIcon} alt="Vue" />
             </ScrollAnimation>
           </div>
-          <div className="hability">
+          {/* <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
               <img src={wordpress} alt="Wordpress" />
             </ScrollAnimation>
@@ -100,7 +105,7 @@ export function About() {
             <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
               <img src={shopify} alt="shopify" />
             </ScrollAnimation>
-          </div>
+          </div> */}
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.18 * 1000}>
               <img src={htmlIcon} alt="Html" />
