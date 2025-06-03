@@ -227,7 +227,8 @@ export function Project() {
                 <li>React</li>
                 <li>Redux</li>
                 <li>Tailwind CSS</li>
-                <li>Typescript</li>
+                <li>Vite</li>
+                <li>Javascript</li>
               </ul>
             </footer>
           </div>
