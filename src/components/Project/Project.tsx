@@ -199,6 +199,40 @@ export function Project() {
             </footer>
           </div>
         </ScrollAnimation>
+        
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <div className="project-links">
+                <a href="https://github.com/mokone-september/Kasi-Pizza" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" />
+                </a>
+                 <a href="https://kasi-pizza.vercel.app/https:/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a> 
+              </div>
+            </header>
+            <div className="body">
+              <h3>Kasi pizza</h3>
+              <p>
+              Kasi Pizza is a vibrant and user-friendly pizza ordering platform that brings the taste of local flavors to your fingertips. With a focus on simplicity and accessibility, the app allows users to easily browse through a variety of delicious pizzas, customize their orders, and place them for delivery or pickup.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>React</li>
+                <li>Redux</li>
+                <li>Tailwind CSS</li>
+                <li>Typescript</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
       </div>
     </Container>
   );
