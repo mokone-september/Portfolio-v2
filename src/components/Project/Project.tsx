@@ -334,7 +334,6 @@ export function Project() {
             </footer>
           </div>
         </ScrollAnimation>
-        
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
